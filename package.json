@@ -1,0 +1,36 @@
+{
+  "name": "monaco-editor-vue-fixed",
+  "version": "1.0.1",
+  "description": "Monaco Editor for Vue.",
+  "main": "src/index.js",
+  "module": "src/index",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "prepublishOnly": "npm run build",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-eslint": "^10.0.3",
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-vue-jsx": "^3.7.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^6.1.2"
+  },
+  "peerDependencies": {
+    "monaco-editor": ">=0.19.3",
+    "vue": ">=2.6.11"
+  },
+  "keywords": [
+    "Vue",
+    "monaco",
+    "monaco-editor",
+    "vue-monaco-editor",
+    "monaco-editor-vue"
+  ],
+  "author": "jwong",
+  "license": "MIT"
+}
